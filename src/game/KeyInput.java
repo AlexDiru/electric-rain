@@ -11,21 +11,21 @@ import org.newdawn.slick.Input;
  */
 public class KeyInput {
 
-	public boolean moveForwardPressed = false;
-	public boolean moveBackwardPressed = false;
-	public boolean moveLeftPressed = false;
-	public boolean moveRightPressed = false;
+	public static boolean moveForwardPressed = false;
+	public static boolean moveBackwardPressed = false;
+	public static boolean moveLeftPressed = false;
+	public static boolean moveRightPressed = false;
 
 	// Key map logic
-	private int moveForwardKey = Input.KEY_W;
-	private int moveBackwardKey = Input.KEY_S;
-	private int moveLeftKey = Input.KEY_A;
-	private int moveRightKey = Input.KEY_D;
+	private static int moveForwardKey = Input.KEY_W;
+	private static int moveBackwardKey = Input.KEY_S;
+	private static int moveLeftKey = Input.KEY_A;
+	private static int moveRightKey = Input.KEY_D;
 
 	/**
 	 * Checks all the keys that are pressed
 	 */
-	public void get(GameContainer gc) {
+	public static void get(GameContainer gc) {
 		Input input = gc.getInput();
 
 		moveForwardPressed = input.isKeyDown(moveForwardKey);
