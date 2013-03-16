@@ -1,0 +1,42 @@
+<attacks>
+	<attack>
+		<id>1</id>
+		<name>Punch</name>
+		<type>Physical</type>
+		<usage>Regular</usage>
+		<target>Singular</target>
+		<basedamage>100</basedamage>
+	</attack>
+	<attack>
+		<id>2</id>
+		<name>Pistol</name>
+		<type>Weapon</type>
+		<usage>Regular</usage>
+		<target>Singular</target>
+		<basedamage>100</basedamage>
+	</attack>
+	<attack>
+		<id>3</id>
+		<name>Heal</name>
+		<type>Spiritual</type>
+		<usage>Buff</usage>
+		<target>Singular</target>
+		<basehealing>100</basehealing>
+	</attack>
+	<attack>
+		<id>4</id>
+		<name>Earthquake</name>
+		<type>Spiritual</type>
+		<usage>Regular</usage>
+		<target>Group</target>
+		<basedamage>100</basedamage>
+	</attack>
+	<attack>
+		<id>4</id>
+		<name>Heal Group</name>
+		<type>Spiritual</type>
+		<usage>Buff</usage>
+		<target>Group</target>
+		<basehealing>50</basehealing>
+	</attack>
+</attacks>

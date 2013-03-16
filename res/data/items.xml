@@ -1,0 +1,21 @@
+<items>
+	<item>
+		<id>1</id>
+		<name>Potion</name>
+		<desc>This heals</desc>
+		<image>res/items/potion.png</image>
+	</item>
+	
+	<item>
+		<id>2</id>
+		<name>Alex</name>
+		<desc>This kills</desc>
+		<image>res/items/potion.png</image>
+	</item>
+	<item>
+		<id>3</id>
+		<name>Zebra</name>
+		<desc>This kills</desc>
+		<image>res/items/potion.png</image>
+	</item>
+</items>

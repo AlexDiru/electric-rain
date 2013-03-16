@@ -1,0 +1,39 @@
+<npcs>
+	<npc>
+		<id>1</id>
+		<name>Grandpa</name>
+		<image>res/player/npc01.png</image>
+		<frames>3</frames>
+		<dialog>Back in my day, Pokémon was called Ball-in-a-cup</dialog>
+		<movementType>TURN</movementType>
+		<initialDirection>UP</initialDirection>
+	</npc>
+	<npc>
+		<id>2</id>
+		<name>Cat</name>
+		<image>res/player/cat.png</image>
+		<frames>3</frames>
+		<dialog>Meow~~</dialog>
+	</npc>
+	<npc>
+		<id>3</id>
+		<name>S</name>
+		<image>res/player/npc01.png</image>
+		<frames>3</frames>
+		<dialog>Rumour has it that there is a recluse living in the middle of the forest</dialog>
+	</npc>
+	<npc>
+		<id>4</id>
+		<name>A</name>
+		<image>res/player/npc01.png</image>
+		<frames>3</frames>
+		<dialog>You had better be prepared if you are going into the forest</dialog>
+	</npc>
+	<npc>
+		<id>5</id>
+		<name>B</name>
+		<image>res/player/npc01.png</image>
+		<frames>3</frames>
+		<dialog>Just South of here are the plains, it's a great place to train your skills</dialog>
+	</npc>
+</npcs>
